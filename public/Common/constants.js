@@ -17,7 +17,7 @@ export const shimmer_card_unit = 20;
 export const shimmer_menu_card_unit = 10;
 
 // Github - username
-export const Github_UserName = "ChetanNada";
+export const Github_UserName = "Aniket-216";
 export const Github_Repository_Name = "Namaste-React";
 
 // Github API for User
