@@ -1,5 +1,6 @@
 import { Component } from "react";
-import { SiGmail, SiLinkedin, SiGithub, SiTwitter } from "react-icons/si";
+import { SiGmail, SiLinkedin, SiGithub } from "react-icons/si";
+import { BsTwitterX } from "react-icons/bs";
 import {
   Github_Link,
   Email_Link,
@@ -34,23 +35,41 @@ class SocialProfileClass extends Component {
           title="Follow me on Linkedin"
           className="icon-button linkedin"
           target="_blank"
-          rel='noopener noreferrer'
+          rel="noopener noreferrer"
         >
           <i>
             <SiLinkedin title="Follow me on Linkedin" />
           </i>
         </a>
-        <a href={Twitter_Link} title="Follow me on Twitter" className="icon-button twitter" target="_blank" rel='noopener noreferrer'>
+        <a
+          href={Twitter_Link}
+          title="Follow me on Twitter"
+          className="icon-button twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i>
-            <SiTwitter title="Follow me on Twitter" />
+            <BsTwitterX title="Follow me on Twitter" />
           </i>
         </a>
-        <a href={Github_Link} title="Follow me on Github" className="icon-button github" target="_blank" rel='noopener noreferrer'>
+        <a
+          href={Github_Link}
+          title="Follow me on Github"
+          className="icon-button github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i>
             <SiGithub title="Follow me on Github" />
           </i>
         </a>
-        <a href={Email_Link} title="Any Query! Mail me" className="icon-button email" target="_blank" rel='noopener noreferrer'>
+        <a
+          href={Email_Link}
+          title="Any Query! Mail me"
+          className="icon-button email"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i>
             <SiGmail title="Any Query! Mail me" />
           </i>
